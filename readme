@@ -1,0 +1,1 @@
+根据论文的架构（图1及第3节），我设计了两个核心合约：CulturalAssetNFT (Ownership Token): 对应论文中的 Ownership Contract，基于 ERC-721，代表所有权。TrustedCulturePlatform (Access & Pricing): 对应 Access Contract 和 Dynamic Pricing Engine，处理访问令牌（FT）的记账、动态定价逻辑 $P_k(t)$ 以及版权分发。
